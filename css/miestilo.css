@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+   
+}
+.nav-barra{
+    color: white;
+    background-color:#000362;
+   
+    width: 100%;
+    list-style-type: none;
+    /*display: flex;
+    flex-wrap: wrap;
+   */
+ 
+   position: fixed;
+          }
+
+.inicio{
+    padding: 15px;
+    font-size: 18px;
+    display: inline-block;
+      }
+
+.boton-li{
+    background-color:goldenrod;
+    
+         }
+
+         .lista-principal{
+          color:white;
+          
+        }
+ 
+        .milista{
+        background-image: url(../fondo.jpg);
+        background-size: cover;
+        background-color: rgba(0,255,0, 0.7);
+        padding-top: 300px;
+        color: white;
+   
+     
+        font-size: 2.0rem;
+
+        
+        }
+        .milistados{
+          background-color: #000362;
+        
+        
+          font-size: 1.5rem;
+         
+          display:flexbox;
+          margin-left: 20px;
+          
+          }
+       
+        
+        
+  .foto{
+ 
+   width: 150px;
+    display:flex;
+    float: right;
+       }
+  .acercade{
+    
+    width:100%;
+    
+    display:flexbox;
+    float: left;
+           }
+  
+         .oculto{
+          
+          padding: 15px;
+            
+            font-size: 18px;
+            width: 100%;
+           
+           
+              }   
+         .titulouno{
+          color:#000362;
+          padding-left: 20px;
+          padding-right: 30px;
+          padding-bottom: 10px;
+          font-size:2.5rem;
+          text-align: center;
+          }
+          .titulotres{
+            color:white;
+            padding-top: 15px;
+            padding-left: 20px;
+            padding-right: 30px;
+         
+            font-size:2.5rem;
+            text-align: center;
+            }
+         .parrafo-uno{
+           color:green;
+           padding-left: 20px;
+           font-size:1.3rem;
+          }
+          .demi{
+           background-color:#000399;
+           padding-left: 15px;
+           height: 400px;
+           
+         }
+         .demi2{
+          background-color:#000362;
+          padding-left: 15px;
+          height: 450px;
+          
+        }
+         .titulodos{
+           color: white;
+           padding-left: 20px;
+           
+           font-size: 2.5rem;
+           
+          
+           
+         }
+         .titulo5{
+          color: white;
+          padding-left: 20px;
+          padding-top: 0px;
+          font-size: 2.5rem;
+          
+         
+          
+        }
+         .titulo4{
+          color:#000362;
+          padding-left: 20px;
+          
+          font-size: 2.5rem;
+        }
+        .parrafotres{
+          color:black;
+          padding-left: 20px;
+          
+          font-size: 1.5rem;
+          
+         
+          
+        }
+        .ajuste{
+          padding-top: 100px;
+        }
+
+         .navega-barra2{
+          background-color: rgba(0, 0, 0, 0.6);
+          padding-left: 20px;
+         
+                          }
+         .parrafo-dos{
+          padding-left: 20px;
+          padding-right: 10px;
+           color: white;
+           font-size: 1.2rem;
+          text-justify: auto;
+           
+           }
+           .imag{
+             height: 200px;
+             padding-left: 20px;
+             
+           }
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+
+.navega-barra:hover{
+    background-color:orangered;
+                    }
+
+@media (min-width:505px) {
+  
+                        .movil{
+                              display: none;
+                              }
+          
+                    .oculto, .lista-principal{
+                                  display: inline-block;
+                                
+                                  padding-top: 15px;
+                                  padding-bottom: 15px;
+                                  padding-left: 10px; 
+                                  padding-right: 10px;
+                                  font-size: 18px;
+                                  width: auto;
+                    
+                                }
+                                    .titulouno{
+                                      
+                                      font-size:3 rem;
+                                      
+                                      
+                                      }
+                                      .titulodos{
+                                        color: white;
+                                        padding-left: 40px;
+                                        
+                                        font-size: 2.5rem;
+                                       
+                                        
+                                      }
+                                      .titulo5{
+                                        color: white;
+                                        padding-left: 20px;
+                                        padding-top: 75px;
+                                        font-size: 2.5rem;
+                                        
+                                       
+                                        
+                                      }
+                                      .titulotres{
+                                        color:white;
+                                        padding-left: 0px;
+                                        padding-right: 30px;
+                                        
+                                        font-size:4.5rem;
+                                        text-align:;
+                                        }
+                                      .parrafo-uno{
+                                        color:green;
+                                        padding-right: 40px;
+                                       font-size: 1.5rem;
+                                      
+                                       }
+                                    .parrafo-dos{
+                                      padding-left:40px;
+                                      color: white;
+                                      }
+
+                                    .nav-barra{
+                                      height: auto;
+                                            }
+                                    .inicio{
+                                      display:none;
+                                          }
+                                    .foto{
+                                      width:50%;
+                                      height: 700px;
+                                      
+                                      
+                                      }
+                                  .acercade{
+                                    height: 700px;
+                                    width:50%;
+                                  
+                                    display:flexbox;
+                                    float: left;
+                                    
+                                        }
+                                 
+                                      .demi{
+                                        background-color:#000399;
+                  
+                                        
+                                      }
+                                      .demi2{
+                                        background-color:#000362;
+                                        padding-left: 15px;
+                                        height: 300px;
+                                        
+                                      }
+                                      .imag{
+                                        height: 200px;
+                                        padding-right:50px;
+                                        padding-top:20px ;
+                                        float:left; 
+                                      }
+                                      .milista{
+                                        background-image: url(../fondo.jpg);
+                                        background-color: rgba(0,255,0, 0.7);
+                                        padding-top: 179px;
+                                        font-size: 2.0rem;
+                                        
+                                       
+                                        
+                                        
+                                        }
+                                      
+                          } 
+
+ul{
+  list-style-type: none;
+  }
+
+
+
+.boton-accion{
+   background-color:goldenrod;
+   margin-left: 20px;
+   height: 40px;
+   padding: 5px;
+   width: 100px;
+   border:3px ;
+   border-color: ;
+   font-size:15px;
+   color: #000362;
+   margin-bottom: 10px;
+}
