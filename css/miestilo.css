@@ -223,11 +223,11 @@ a{
                                       }
                                       .titulotres{
                                         color:white;
-                                        padding-left: 0px;
-                                        padding-right: 30px;
+                                       
+                                        padding-right: 10px;
                                         
-                                        font-size:4.5rem;
-                                        text-align:;
+                                        font-size:2.5rem;
+                                        text-align:center;
                                         }
                                       .parrafo-uno{
                                         color:green;
