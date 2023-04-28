@@ -136,15 +136,18 @@
         }
          .titulo4{
           color:#000362;
-          padding-left: 20px;
+          padding-left: 30px;
           
           font-size: 2.5rem;
         }
         .parrafotres{
           color:black;
-          padding-left: 20px;
-          
+          padding-left:30px;
+          padding-top: 10px;
+          padding-right: 40px;
+          padding-bottom: 10px;
           font-size: 1.5rem;
+          text-align: justify;
           
          
           
@@ -226,18 +229,27 @@ a{
                                        
                                         padding-right: 10px;
                                         
-                                        font-size:2.5rem;
+                                        font-size:3.3rem;
                                         text-align:center;
                                         }
                                       .parrafo-uno{
                                         color:green;
+                                        padding-left:30px;
+                                        padding-top: 10px;
                                         padding-right: 40px;
+                                        padding-bottom: 10px;
                                        font-size: 1.5rem;
+                                       text-align: justify;
                                       
                                        }
                                     .parrafo-dos{
-                                      padding-left:40px;
+                                      padding-left:30px;
+                                      padding-top: 10px;
+                                      padding-right: 40px;
+                                      padding-bottom: 10px;
                                       color: white;
+                                      font-size: 1.5rem;
+                                      text-align: justify;
                                       }
 
                                     .nav-barra{
@@ -262,8 +274,8 @@ a{
                                         }
                                  
                                       .demi{
-                                        background-color:#000399;
-                  
+                                        background-color:#000362;
+                                        
                                         
                                       }
                                       .demi2{
@@ -281,7 +293,7 @@ a{
                                       .milista{
                                         background-image: url(../fondo.jpg);
                                         background-color: rgba(0,255,0, 0.7);
-                                        padding-top: 143px;
+                                        padding-top: 150px;
                                         font-size: 2.0rem;
                                         
                                        
